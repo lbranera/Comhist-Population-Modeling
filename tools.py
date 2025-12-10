@@ -1,7 +1,5 @@
-import math
 import numpy as np
 from scipy.optimize import curve_fit
-from sklearn.linear_model import LinearRegression
 
 def exponential(t, r, P_init):
     return P_init * np.exp(r * t)
